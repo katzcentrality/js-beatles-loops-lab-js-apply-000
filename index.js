@@ -16,14 +16,15 @@ const facts = [
 ]
 
 function johnLennonFacts(facts) {
-let arr = []; 
-let i = 0;
-while(i < facts.length); {
-arr.push(`${facts[i]}!!!`);
-i++;
+  var results = [];
+  var count = 0;
+  while (count < facts.length) {
+    results.push(facts[count] + "!!!");
+    count++;
+  }
+  return results;
 }
-return arr;
-}
+
 
 function iLoveTheBeatles(i) {
 let arr = [];
