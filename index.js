@@ -25,6 +25,11 @@ i++
 return arr;
 }
 
-function iLoveTheBeatles() {
-
+function iLoveTheBeatles(i) {
+let arr = [];
+do {
+arr.push('I love the Beatles!');
+i++
 }
+while (i < 15);
+return arr
